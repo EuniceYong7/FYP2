@@ -30,6 +30,7 @@ source venv/bin/activate      # (Linux/macOS)
 venv\Scripts\activate.bat     # (Windows)
 
 =================================================
+
 2. REQUIRED PYTHON LIBRARIES
 Install the necessary libraries using pip:
 
@@ -41,6 +42,7 @@ conda activate ecg-xai
 pip install numpy pandas matplotlib seaborn scikit-learn neurokit2 pywt shap lime
 
 =================================================
+
 3. HOW TO GET THE DATASET
 This project uses the MIT-BIH Arrhythmia Database.
 
@@ -63,6 +65,7 @@ import wfdb
 wfdb.dl_database('mitdb', dl_dir='data/')
 
 =================================================
+
 4. HOW TO RUN THE NOTEBOOK
 Launch Jupyter Notebook:
 
@@ -81,6 +84,7 @@ Perform clustering with K-Means.
 Apply XAI techniques (SHAP and LIME) to interpret the results.
 
 =================================================
+
 5. OUTPUT FILES
 Extracted features will be saved as .csv files.
 
