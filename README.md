@@ -56,9 +56,6 @@ Alternatively, you can use the WFDB Python library to download records:
 pip install wfdb
 Then run in a Python script:
 
-python
-Copy
-Edit
 import wfdb
 wfdb.dl_database('mitdb', dl_dir='data/')
 =================================================
