@@ -23,10 +23,12 @@ Installation Options:
 - Download Python from the official site: https://www.python.org/downloads/
 
 Create Virtual Environment (if not using Anaconda):
+
 ---------------------------------------------------
 python -m venv venv
 source venv/bin/activate      # (Linux/macOS)
 venv\Scripts\activate.bat     # (Windows)
+
 =================================================
 2. REQUIRED PYTHON LIBRARIES
 Install the necessary libraries using pip:
@@ -37,6 +39,7 @@ If you use Anaconda, you can create an environment and install with:
 conda create -n ecg-xai python=3.10
 conda activate ecg-xai
 pip install numpy pandas matplotlib seaborn scikit-learn neurokit2 pywt shap lime
+
 =================================================
 3. HOW TO GET THE DATASET
 This project uses the MIT-BIH Arrhythmia Database.
@@ -58,6 +61,7 @@ Then run in a Python script:
 
 import wfdb
 wfdb.dl_database('mitdb', dl_dir='data/')
+
 =================================================
 4. HOW TO RUN THE NOTEBOOK
 Launch Jupyter Notebook:
